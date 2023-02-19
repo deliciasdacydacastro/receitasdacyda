@@ -1,7 +1,35 @@
 @charset "UTF-8";
 
-* {
-    background-image: url('../imagens/comidas2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+header{
+    background-image: linear-gradient(to bottom, gray,red);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(65, 42, 42);
+    font-size: 2em;
+    font-family: fantasy;
 }
+
+main {
+    background-image: url('../imagens/comidas2.jpg');
+    
+    background-size: cover;
+    
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-top: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+main > a > p{
+    text-align: center;
+    font-size: 3em;
+    
+}
+
